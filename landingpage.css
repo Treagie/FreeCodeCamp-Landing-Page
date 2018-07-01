@@ -1,0 +1,178 @@
+@media only screen and (max-width: 600px) {
+
+    body h1{
+        font-size: 20px;
+    }
+
+    body h2 {
+        font-size: 40px;
+    }
+
+    body p {
+        font-size: 14px;
+    }
+    
+    #header-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    body h1{
+        font-size: 18px;
+    }
+
+    body h2 {
+        font-size: 20px;
+    }
+
+    body p {
+        font-size: 10px;
+    }
+    
+    #header-img {
+        max-width: 100%;
+        height: auto;
+    }
+    .container {
+        max-width: 100%;
+        height: auto;
+    }
+    .header-title,
+    .header-para  {
+        position: fixed;
+    }
+}
+
+body {
+    overflow-x: hidden;
+    padding-top: 40px;
+}
+
+#header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.header-title {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-left: 50px;
+    padding-top: 120px;
+    font-size: 55px;
+    font-family: "life savers", cursive;
+    color:#666699;
+}
+
+.header-para {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-left: 120px;
+    padding-top: 220px;
+    font-size: 30px;
+    font-family: "loved by the king", cursive;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    height: 300px;
+    grid-template-rows: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-family: "inika", serif;
+    font-size: 18px;
+    padding-top: 50px;
+    float: left;
+}
+
+.grid-item-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding-top: 30px;
+    float: right;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.box h1, 
+.box p {
+    width: auto;
+    padding-right: 30px;
+}
+
+.box h1 {
+    font-family: "inika", serif;
+    font-size: 32px;
+    color: #666699;
+}
+
+.box p {
+    font-family: "inika", serif;
+    font-size: 18px;
+}
+
+.box img {
+    width: 400px;
+    height: 680px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.caring {
+    border: 2px solid #666699;
+    padding-bottom:
+}
+.caring h1 {
+    font-family: "inika", serif;
+    font-size: 32px;
+    color: #666699;
+}
+
+.caring p {
+    font-family: "inika", serif;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.caring p a {
+    color: #666699;
+}
+
+.caring #form {
+    font-family: "inika", serif;
+}
+
+.caring #form #submit {
+    background-color: #666699;
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+}
